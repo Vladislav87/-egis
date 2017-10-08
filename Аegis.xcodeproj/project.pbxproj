@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1198321EF4339C008096EF /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1198311EF4339C008096EF /* ForgotPasswordVC.swift */; };
+		DF1198341EF43844008096EF /* VolunteerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1198331EF43844008096EF /* VolunteerTVC.swift */; };
+		DF1198361EF44317008096EF /* VolunteerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1198351EF44316008096EF /* VolunteerTVCell.swift */; };
+		DF6F92881EEFF49000CFA840 /* PartnersProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F92871EEFF49000CFA840 /* PartnersProfile.swift */; };
+		DF6F928A1EEFF57000CFA840 /* PartnerDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F92891EEFF57000CFA840 /* PartnerDetailCell.swift */; };
+		DF6F928C1EF0051700CFA840 /* PartnerMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F928B1EF0051700CFA840 /* PartnerMapVC.swift */; };
+		DFB065B71EEAFBA800394968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065B61EEAFBA800394968 /* AppDelegate.swift */; };
+		DFB065BC1EEAFBA800394968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB065BA1EEAFBA800394968 /* Main.storyboard */; };
+		DFB065BE1EEAFBA800394968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB065BD1EEAFBA800394968 /* Assets.xcassets */; };
+		DFB065C11EEAFBA800394968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB065BF1EEAFBA800394968 /* LaunchScreen.storyboard */; };
+		DFB065C91EED2E4100394968 /* FriendsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065C81EED2E4100394968 /* FriendsTVC.swift */; };
+		DFB065CB1EED2FB000394968 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065CA1EED2FB000394968 /* FriendCell.swift */; };
+		DFB065CE1EED329500394968 /* Aegis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFB065CC1EED329500394968 /* Aegis.xcdatamodeld */; };
+		DFB065D01EED345900394968 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065CF1EED345900394968 /* CoreDataStack.swift */; };
+		DFB065D21EED3CAE00394968 /* FriendProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065D11EED3CAE00394968 /* FriendProfile.swift */; };
+		DFB065D41EED3D7700394968 /* FriendDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065D31EED3D7700394968 /* FriendDetailCell.swift */; };
+		DFB065D61EED3FDA00394968 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065D51EED3FDA00394968 /* MapVC.swift */; };
+		DFB065D91EED421300394968 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB065D81EED421300394968 /* MapKit.framework */; };
+		DFB065DB1EED446400394968 /* AddNewFriendTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065DA1EED446400394968 /* AddNewFriendTVC.swift */; };
+		DFB065DF1EED79E200394968 /* PartnerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065DE1EED79E200394968 /* PartnerTVC.swift */; };
+		DFB065E11EED7D7700394968 /* PartnersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB065E01EED7D7700394968 /* PartnersCell.swift */; };
+		DFC5A9991EF2CAB5009B399F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC5A9981EF2CAB5009B399F /* MainVC.swift */; };
+		DFC5A99C1EF2D407009B399F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC5A99B1EF2D407009B399F /* RegisterVC.swift */; };
+		DFEB93521EF130FA00309C53 /* DonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB93511EF130FA00309C53 /* DonationVC.swift */; };
+		DFEB93551EF157BA00309C53 /* AboutDonationTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEB93541EF157BA00309C53 /* AboutDonationTarget.swift */; };
+		DFEE587F1EFE6F740039409D /* SelectTypeRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE587E1EFE6F740039409D /* SelectTypeRegistrationVC.swift */; };
+		DFEE58811EFE74A90039409D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE58801EFE74A90039409D /* LoginVC.swift */; };
+		DFEE58831EFE7B780039409D /* LoadFBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE58821EFE7B780039409D /* LoadFBVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF1198311EF4339C008096EF /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		DF1198331EF43844008096EF /* VolunteerTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolunteerTVC.swift; sourceTree = "<group>"; };
+		DF1198351EF44316008096EF /* VolunteerTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolunteerTVCell.swift; sourceTree = "<group>"; };
+		DF6F92871EEFF49000CFA840 /* PartnersProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnersProfile.swift; sourceTree = "<group>"; };
+		DF6F92891EEFF57000CFA840 /* PartnerDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerDetailCell.swift; sourceTree = "<group>"; };
+		DF6F928B1EF0051700CFA840 /* PartnerMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerMapVC.swift; sourceTree = "<group>"; };
+		DFB065B31EEAFBA800394968 /* Аegis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Аegis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB065B61EEAFBA800394968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB065BB1EEAFBA800394968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB065BD1EEAFBA800394968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB065C01EEAFBA800394968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB065C21EEAFBA800394968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB065C81EED2E4100394968 /* FriendsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendsTVC.swift; path = ../FriendsTVC.swift; sourceTree = "<group>"; };
+		DFB065CA1EED2FB000394968 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		DFB065CD1EED329500394968 /* Aegis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aegis.xcdatamodel; sourceTree = "<group>"; };
+		DFB065CF1EED345900394968 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		DFB065D11EED3CAE00394968 /* FriendProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendProfile.swift; sourceTree = "<group>"; };
+		DFB065D31EED3D7700394968 /* FriendDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FriendDetailCell.swift; path = ../FriendDetailCell.swift; sourceTree = "<group>"; };
+		DFB065D51EED3FDA00394968 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		DFB065D81EED421300394968 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DFB065DA1EED446400394968 /* AddNewFriendTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewFriendTVC.swift; sourceTree = "<group>"; };
+		DFB065DE1EED79E200394968 /* PartnerTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerTVC.swift; sourceTree = "<group>"; };
+		DFB065E01EED7D7700394968 /* PartnersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnersCell.swift; sourceTree = "<group>"; };
+		DFC5A9981EF2CAB5009B399F /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		DFC5A99B1EF2D407009B399F /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		DFEB93511EF130FA00309C53 /* DonationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonationVC.swift; path = ../DonationVC.swift; sourceTree = "<group>"; };
+		DFEB93541EF157BA00309C53 /* AboutDonationTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutDonationTarget.swift; sourceTree = "<group>"; };
+		DFEE587E1EFE6F740039409D /* SelectTypeRegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeRegistrationVC.swift; sourceTree = "<group>"; };
+		DFEE58801EFE74A90039409D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		DFEE58821EFE7B780039409D /* LoadFBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadFBVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB065B01EEAFBA800394968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB065D91EED421300394968 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1198371EF4431D008096EF /* Volunteer */ = {
+			isa = PBXGroup;
+			children = (
+				DF1198331EF43844008096EF /* VolunteerTVC.swift */,
+				DF1198351EF44316008096EF /* VolunteerTVCell.swift */,
+			);
+			name = Volunteer;
+			sourceTree = "<group>";
+		};
+		DFB065AA1EEAFBA800394968 = {
+			isa = PBXGroup;
+			children = (
+				DFB065B51EEAFBA800394968 /* Аegis */,
+				DFB065B41EEAFBA800394968 /* Products */,
+				DFB065D71EED421200394968 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB065B41EEAFBA800394968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB065B31EEAFBA800394968 /* Аegis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB065B51EEAFBA800394968 /* Аegis */ = {
+			isa = PBXGroup;
+			children = (
+				DFB065B61EEAFBA800394968 /* AppDelegate.swift */,
+				DFC5A99A1EF2D398009B399F /* EnterToApp */,
+				DF1198371EF4431D008096EF /* Volunteer */,
+				DFEB93531EF1310100309C53 /* Donation */,
+				DFB065E21EEEBF0900394968 /* Partner */,
+				DFB065DC1EED79B700394968 /* Friend */,
+				DFB065DD1EED79CB00394968 /* DataModel */,
+				DFB065BA1EEAFBA800394968 /* Main.storyboard */,
+				DFB065BD1EEAFBA800394968 /* Assets.xcassets */,
+				DFB065BF1EEAFBA800394968 /* LaunchScreen.storyboard */,
+				DFB065C21EEAFBA800394968 /* Info.plist */,
+			);
+			path = "Аegis";
+			sourceTree = "<group>";
+		};
+		DFB065D71EED421200394968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB065D81EED421300394968 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB065DC1EED79B700394968 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				DFB065CA1EED2FB000394968 /* FriendCell.swift */,
+				DFB065D51EED3FDA00394968 /* MapVC.swift */,
+				DFB065DA1EED446400394968 /* AddNewFriendTVC.swift */,
+				DFB065C81EED2E4100394968 /* FriendsTVC.swift */,
+				DFB065D31EED3D7700394968 /* FriendDetailCell.swift */,
+				DFB065D11EED3CAE00394968 /* FriendProfile.swift */,
+			);
+			name = Friend;
+			sourceTree = "<group>";
+		};
+		DFB065DD1EED79CB00394968 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFB065CF1EED345900394968 /* CoreDataStack.swift */,
+				DFB065CC1EED329500394968 /* Aegis.xcdatamodeld */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		DFB065E21EEEBF0900394968 /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				DFB065DE1EED79E200394968 /* PartnerTVC.swift */,
+				DFB065E01EED7D7700394968 /* PartnersCell.swift */,
+				DF6F92891EEFF57000CFA840 /* PartnerDetailCell.swift */,
+				DF6F928B1EF0051700CFA840 /* PartnerMapVC.swift */,
+				DF6F92871EEFF49000CFA840 /* PartnersProfile.swift */,
+			);
+			name = Partner;
+			sourceTree = "<group>";
+		};
+		DFC5A99A1EF2D398009B399F /* EnterToApp */ = {
+			isa = PBXGroup;
+			children = (
+				DFC5A9981EF2CAB5009B399F /* MainVC.swift */,
+				DF1198311EF4339C008096EF /* ForgotPasswordVC.swift */,
+				DFC5A99B1EF2D407009B399F /* RegisterVC.swift */,
+				DFEE587E1EFE6F740039409D /* SelectTypeRegistrationVC.swift */,
+				DFEE58821EFE7B780039409D /* LoadFBVC.swift */,
+				DFEE58801EFE74A90039409D /* LoginVC.swift */,
+			);
+			name = EnterToApp;
+			sourceTree = "<group>";
+		};
+		DFEB93531EF1310100309C53 /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				DFEB93511EF130FA00309C53 /* DonationVC.swift */,
+				DFEB93541EF157BA00309C53 /* AboutDonationTarget.swift */,
+			);
+			name = Donation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB065B21EEAFBA800394968 /* Аegis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB065C51EEAFBA800394968 /* Build configuration list for PBXNativeTarget "Аegis" */;
+			buildPhases = (
+				DFB065AF1EEAFBA800394968 /* Sources */,
+				DFB065B01EEAFBA800394968 /* Frameworks */,
+				DFB065B11EEAFBA800394968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Аegis";
+			productName = "Аegis";
+			productReference = DFB065B31EEAFBA800394968 /* Аegis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB065AB1EEAFBA800394968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Владислав Ходеев";
+				TargetAttributes = {
+					DFB065B21EEAFBA800394968 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L76J5846VM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DFB065AE1EEAFBA800394968 /* Build configuration list for PBXProject "Аegis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB065AA1EEAFBA800394968;
+			productRefGroup = DFB065B41EEAFBA800394968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB065B21EEAFBA800394968 /* Аegis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB065B11EEAFBA800394968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB065C11EEAFBA800394968 /* LaunchScreen.storyboard in Resources */,
+				DFB065BE1EEAFBA800394968 /* Assets.xcassets in Resources */,
+				DFB065BC1EEAFBA800394968 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB065AF1EEAFBA800394968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6F92881EEFF49000CFA840 /* PartnersProfile.swift in Sources */,
+				DFC5A9991EF2CAB5009B399F /* MainVC.swift in Sources */,
+				DFEE58831EFE7B780039409D /* LoadFBVC.swift in Sources */,
+				DFEB93521EF130FA00309C53 /* DonationVC.swift in Sources */,
+				DFEB93551EF157BA00309C53 /* AboutDonationTarget.swift in Sources */,
+				DFB065DB1EED446400394968 /* AddNewFriendTVC.swift in Sources */,
+				DF6F928C1EF0051700CFA840 /* PartnerMapVC.swift in Sources */,
+				DFB065D01EED345900394968 /* CoreDataStack.swift in Sources */,
+				DFEE587F1EFE6F740039409D /* SelectTypeRegistrationVC.swift in Sources */,
+				DF1198321EF4339C008096EF /* ForgotPasswordVC.swift in Sources */,
+				DFB065B71EEAFBA800394968 /* AppDelegate.swift in Sources */,
+				DFB065CB1EED2FB000394968 /* FriendCell.swift in Sources */,
+				DFB065DF1EED79E200394968 /* PartnerTVC.swift in Sources */,
+				DF1198361EF44317008096EF /* VolunteerTVCell.swift in Sources */,
+				DF6F928A1EEFF57000CFA840 /* PartnerDetailCell.swift in Sources */,
+				DFB065E11EED7D7700394968 /* PartnersCell.swift in Sources */,
+				DFB065C91EED2E4100394968 /* FriendsTVC.swift in Sources */,
+				DF1198341EF43844008096EF /* VolunteerTVC.swift in Sources */,
+				DFB065CE1EED329500394968 /* Aegis.xcdatamodeld in Sources */,
+				DFB065D61EED3FDA00394968 /* MapVC.swift in Sources */,
+				DFC5A99C1EF2D407009B399F /* RegisterVC.swift in Sources */,
+				DFB065D41EED3D7700394968 /* FriendDetailCell.swift in Sources */,
+				DFB065D21EED3CAE00394968 /* FriendProfile.swift in Sources */,
+				DFEE58811EFE74A90039409D /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFB065BA1EEAFBA800394968 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB065BB1EEAFBA800394968 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB065BF1EEAFBA800394968 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB065C01EEAFBA800394968 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB065C31EEAFBA800394968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB065C41EEAFBA800394968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB065C61EEAFBA800394968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L76J5846VM;
+				INFOPLIST_FILE = "Аegis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.-egis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DFB065C71EEAFBA800394968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L76J5846VM;
+				INFOPLIST_FILE = "Аegis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.-egis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB065AE1EEAFBA800394968 /* Build configuration list for PBXProject "Аegis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB065C31EEAFBA800394968 /* Debug */,
+				DFB065C41EEAFBA800394968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB065C51EEAFBA800394968 /* Build configuration list for PBXNativeTarget "Аegis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB065C61EEAFBA800394968 /* Debug */,
+				DFB065C71EEAFBA800394968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFB065CC1EED329500394968 /* Aegis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFB065CD1EED329500394968 /* Aegis.xcdatamodel */,
+			);
+			currentVersion = DFB065CD1EED329500394968 /* Aegis.xcdatamodel */;
+			name = Aegis.xcdatamodeld;
+			path = ../Aegis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFB065AB1EEAFBA800394968 /* Project object */;
+}
